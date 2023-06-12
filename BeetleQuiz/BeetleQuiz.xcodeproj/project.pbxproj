@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E6ADCF129E41A4900339134 /* ZokusolectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ADCF029E41A4900339134 /* ZokusolectionViewController.swift */; };
+		3E6ADCF729E427AD00339134 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ADCF629E427AD00339134 /* QuizViewController.swift */; };
+		3E6ADCFB29E6C26800339134 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFA29E6C26800339134 /* quiz1.csv */; };
+		3E6ADCFD29ED523F00339134 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFC29ED523F00339134 /* ScoreViewController.swift */; };
+		3E6ADD0129ED5A9E00339134 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFF29ED5A9E00339134 /* correct.png */; };
+		3E6ADD0229ED5A9E00339134 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADD0029ED5A9E00339134 /* incorrect.png */; };
+		3E8CF4C929F942480066A4C5 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4C829F942480066A4C5 /* launchImageView.png */; };
+		3E8CF4CB29FD00200066A4C5 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4CA29FD00200066A4C5 /* quiz2.csv */; };
+		3E8CF4CD29FD00410066A4C5 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4CC29FD00410066A4C5 /* quiz3.csv */; };
+		3E918C9729DD821B0067765F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E918C9629DD821B0067765F /* AppDelegate.swift */; };
+		3E918C9929DD821B0067765F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E918C9829DD821B0067765F /* SceneDelegate.swift */; };
+		3E918C9B29DD821B0067765F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E918C9A29DD821B0067765F /* ViewController.swift */; };
+		3E918C9E29DD821B0067765F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E918C9C29DD821B0067765F /* Main.storyboard */; };
+		3E918CA029DD821C0067765F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E918C9F29DD821C0067765F /* Assets.xcassets */; };
+		3E918CA329DD821C0067765F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E918CA129DD821C0067765F /* LaunchScreen.storyboard */; };
+		E6209C442C52919506FBEE52 /* Pods_BeetleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919F80D233C83D4A34310BB /* Pods_BeetleQuiz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		334B1464D1575F1C4997179A /* Pods-BeetleQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeetleQuiz.release.xcconfig"; path = "Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		3E6ADCF029E41A4900339134 /* ZokusolectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZokusolectionViewController.swift; sourceTree = "<group>"; };
+		3E6ADCF629E427AD00339134 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		3E6ADCFA29E6C26800339134 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		3E6ADCFC29ED523F00339134 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		3E6ADCFF29ED5A9E00339134 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		3E6ADD0029ED5A9E00339134 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		3E8CF4C829F942480066A4C5 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		3E8CF4CA29FD00200066A4C5 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		3E8CF4CC29FD00410066A4C5 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		3E918C9329DD821B0067765F /* BeetleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeetleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E918C9629DD821B0067765F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E918C9829DD821B0067765F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E918C9A29DD821B0067765F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E918C9D29DD821B0067765F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E918C9F29DD821C0067765F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E918CA229DD821C0067765F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E918CA429DD821C0067765F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9919F80D233C83D4A34310BB /* Pods_BeetleQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeetleQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C068ACE9ACE6F05CE42E5FE5 /* Pods-BeetleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeetleQuiz.debug.xcconfig"; path = "Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E918C9029DD821B0067765F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6209C442C52919506FBEE52 /* Pods_BeetleQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E6ADCFE29ED5A9E00339134 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3E6ADCFF29ED5A9E00339134 /* correct.png */,
+				3E6ADD0029ED5A9E00339134 /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		3E8CF4C729F942480066A4C5 /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				3E8CF4C829F942480066A4C5 /* launchImageView.png */,
+			);
+			path = launchImage;
+			sourceTree = "<group>";
+		};
+		3E918C8A29DD821B0067765F = {
+			isa = PBXGroup;
+			children = (
+				3E6ADCFA29E6C26800339134 /* quiz1.csv */,
+				3E8CF4CA29FD00200066A4C5 /* quiz2.csv */,
+				3E8CF4CC29FD00410066A4C5 /* quiz3.csv */,
+				3E918C9529DD821B0067765F /* BeetleQuiz */,
+				3E918C9429DD821B0067765F /* Products */,
+				C2EA719725B95979CB564BE3 /* Pods */,
+				81C7D408ECDB039F05314A4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E918C9429DD821B0067765F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E918C9329DD821B0067765F /* BeetleQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E918C9529DD821B0067765F /* BeetleQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3E918C9629DD821B0067765F /* AppDelegate.swift */,
+				3E918C9829DD821B0067765F /* SceneDelegate.swift */,
+				3E918C9A29DD821B0067765F /* ViewController.swift */,
+				3E918C9C29DD821B0067765F /* Main.storyboard */,
+				3E6ADCFC29ED523F00339134 /* ScoreViewController.swift */,
+				3E6ADCF629E427AD00339134 /* QuizViewController.swift */,
+				3E6ADCF029E41A4900339134 /* ZokusolectionViewController.swift */,
+				3E918C9F29DD821C0067765F /* Assets.xcassets */,
+				3E918CA129DD821C0067765F /* LaunchScreen.storyboard */,
+				3E6ADCFE29ED5A9E00339134 /* image */,
+				3E918CA429DD821C0067765F /* Info.plist */,
+				3E8CF4C729F942480066A4C5 /* launchImage */,
+			);
+			path = BeetleQuiz;
+			sourceTree = "<group>";
+		};
+		81C7D408ECDB039F05314A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9919F80D233C83D4A34310BB /* Pods_BeetleQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EA719725B95979CB564BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C068ACE9ACE6F05CE42E5FE5 /* Pods-BeetleQuiz.debug.xcconfig */,
+				334B1464D1575F1C4997179A /* Pods-BeetleQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E918C9229DD821B0067765F /* BeetleQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E918CA729DD821C0067765F /* Build configuration list for PBXNativeTarget "BeetleQuiz" */;
+			buildPhases = (
+				DCCF4DB65EF2AE8590288299 /* [CP] Check Pods Manifest.lock */,
+				3E918C8F29DD821B0067765F /* Sources */,
+				3E918C9029DD821B0067765F /* Frameworks */,
+				3E918C9129DD821B0067765F /* Resources */,
+				429EF84847AD17AD1801F41C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeetleQuiz;
+			productName = BeetleQuiz;
+			productReference = 3E918C9329DD821B0067765F /* BeetleQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E918C8B29DD821B0067765F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3E918C9229DD821B0067765F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3E918C8E29DD821B0067765F /* Build configuration list for PBXProject "BeetleQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E918C8A29DD821B0067765F;
+			productRefGroup = 3E918C9429DD821B0067765F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E918C9229DD821B0067765F /* BeetleQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E918C9129DD821B0067765F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6ADD0129ED5A9E00339134 /* correct.png in Resources */,
+				3E6ADD0229ED5A9E00339134 /* incorrect.png in Resources */,
+				3E918CA329DD821C0067765F /* LaunchScreen.storyboard in Resources */,
+				3E6ADCFB29E6C26800339134 /* quiz1.csv in Resources */,
+				3E8CF4CB29FD00200066A4C5 /* quiz2.csv in Resources */,
+				3E918CA029DD821C0067765F /* Assets.xcassets in Resources */,
+				3E8CF4CD29FD00410066A4C5 /* quiz3.csv in Resources */,
+				3E918C9E29DD821B0067765F /* Main.storyboard in Resources */,
+				3E8CF4C929F942480066A4C5 /* launchImageView.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429EF84847AD17AD1801F41C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCF4DB65EF2AE8590288299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeetleQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E918C8F29DD821B0067765F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6ADCFD29ED523F00339134 /* ScoreViewController.swift in Sources */,
+				3E6ADCF129E41A4900339134 /* ZokusolectionViewController.swift in Sources */,
+				3E918C9B29DD821B0067765F /* ViewController.swift in Sources */,
+				3E918C9729DD821B0067765F /* AppDelegate.swift in Sources */,
+				3E6ADCF729E427AD00339134 /* QuizViewController.swift in Sources */,
+				3E918C9929DD821B0067765F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E918C9C29DD821B0067765F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E918C9D29DD821B0067765F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E918CA129DD821C0067765F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E918CA229DD821C0067765F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E918CA529DD821C0067765F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E918CA629DD821C0067765F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E918CA829DD821C0067765F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C068ACE9ACE6F05CE42E5FE5 /* Pods-BeetleQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNCL2KUC77;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeetleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeetleQuiz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazukiwatanabe.BeetleQuizProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E918CA929DD821C0067765F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334B1464D1575F1C4997179A /* Pods-BeetleQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNCL2KUC77;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeetleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeetleQuiz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazukiwatanabe.BeetleQuizProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E918C8E29DD821B0067765F /* Build configuration list for PBXProject "BeetleQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E918CA529DD821C0067765F /* Debug */,
+				3E918CA629DD821C0067765F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E918CA729DD821C0067765F /* Build configuration list for PBXNativeTarget "BeetleQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E918CA829DD821C0067765F /* Debug */,
+				3E918CA929DD821C0067765F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E918C8B29DD821B0067765F /* Project object */;
+}
