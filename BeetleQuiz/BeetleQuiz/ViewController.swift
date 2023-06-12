@@ -14,9 +14,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         startButton.layer.borderWidth = 2
         startButton.layer.borderColor = UIColor.black.cgColor
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
