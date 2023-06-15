@@ -39,7 +39,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.79215686269999996" green="0.91764705879999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86271948750000005" green="1" blue="0.92938044519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iaz-nY-hf5" secondAttribute="trailing" constant="20" id="0i9-hc-xFv"/>
                             <constraint firstItem="hHZ-IY-Czg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="GfN-1f-NSF"/>
@@ -105,7 +105,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YbA-Qw-yv2"/>
-                        <color key="backgroundColor" red="0.79215686269999996" green="0.91764705879999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86271948746121696" green="1" blue="0.92938044524872676" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9kl-eb-9fE" firstAttribute="leading" secondItem="YbA-Qw-yv2" secondAttribute="leading" constant="40" id="TNm-0h-5l5"/>
@@ -215,7 +215,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YBz-6G-7pF"/>
-                        <color key="backgroundColor" red="0.79215686269999996" green="0.91764705879999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86271948750000005" green="1" blue="0.92938044519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="R2H-mG-3Hb" firstAttribute="leading" secondItem="YBz-6G-7pF" secondAttribute="leading" constant="20" id="0D4-Vd-iBL"/>
                             <constraint firstItem="Lv5-JW-WJK" firstAttribute="centerX" secondItem="rnn-PH-UfT" secondAttribute="centerX" id="8wQ-Rz-h9J"/>
@@ -289,7 +289,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A0r-EC-avF"/>
-                        <color key="backgroundColor" red="0.79215686269999996" green="0.91764705879999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.86271948750000005" green="1" blue="0.92938044519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gwf-vl-MEq" firstAttribute="centerY" secondItem="P8l-5W-WeU" secondAttribute="centerY" id="FTx-lU-6EQ"/>
                             <constraint firstItem="gwf-vl-MEq" firstAttribute="leading" secondItem="A0r-EC-avF" secondAttribute="leading" constant="30" id="HfL-eF-8AR"/>
@@ -310,7 +310,7 @@
     </scenes>
     <resources>
         <namedColor name="AccentColor">
-            <color red="0.20399998128414154" green="0.77999997138977051" blue="0.34899997711181641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20399999618530273" green="0.5" blue="0.34900000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

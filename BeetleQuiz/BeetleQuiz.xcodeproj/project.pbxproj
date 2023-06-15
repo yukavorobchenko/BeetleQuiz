@@ -11,8 +11,6 @@
 		3E6ADCF729E427AD00339134 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ADCF629E427AD00339134 /* QuizViewController.swift */; };
 		3E6ADCFB29E6C26800339134 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFA29E6C26800339134 /* quiz1.csv */; };
 		3E6ADCFD29ED523F00339134 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFC29ED523F00339134 /* ScoreViewController.swift */; };
-		3E6ADD0129ED5A9E00339134 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADCFF29ED5A9E00339134 /* correct.png */; };
-		3E6ADD0229ED5A9E00339134 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6ADD0029ED5A9E00339134 /* incorrect.png */; };
 		3E8CF4C929F942480066A4C5 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4C829F942480066A4C5 /* launchImageView.png */; };
 		3E8CF4CB29FD00200066A4C5 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4CA29FD00200066A4C5 /* quiz2.csv */; };
 		3E8CF4CD29FD00410066A4C5 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3E8CF4CC29FD00410066A4C5 /* quiz3.csv */; };
@@ -22,6 +20,9 @@
 		3E918C9E29DD821B0067765F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E918C9C29DD821B0067765F /* Main.storyboard */; };
 		3E918CA029DD821C0067765F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E918C9F29DD821C0067765F /* Assets.xcassets */; };
 		3E918CA329DD821C0067765F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E918CA129DD821C0067765F /* LaunchScreen.storyboard */; };
+		3ECF0E4B2A3B1D5F003B3561 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF0E492A3B1D5F003B3561 /* correct.png */; };
+		3ECF0E4C2A3B1D5F003B3561 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF0E4A2A3B1D5F003B3561 /* incorrect.png */; };
+		3ECF0E4E2A3B1D7A003B3561 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF0E4D2A3B1D7A003B3561 /* Untitled.png */; };
 		E6209C442C52919506FBEE52 /* Pods_BeetleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919F80D233C83D4A34310BB /* Pods_BeetleQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +32,6 @@
 		3E6ADCF629E427AD00339134 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3E6ADCFA29E6C26800339134 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		3E6ADCFC29ED523F00339134 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		3E6ADCFF29ED5A9E00339134 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
-		3E6ADD0029ED5A9E00339134 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		3E8CF4C829F942480066A4C5 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
 		3E8CF4CA29FD00200066A4C5 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 		3E8CF4CC29FD00410066A4C5 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
@@ -44,6 +43,9 @@
 		3E918C9F29DD821C0067765F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E918CA229DD821C0067765F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E918CA429DD821C0067765F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECF0E492A3B1D5F003B3561 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		3ECF0E4A2A3B1D5F003B3561 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		3ECF0E4D2A3B1D7A003B3561 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		9919F80D233C83D4A34310BB /* Pods_BeetleQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeetleQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C068ACE9ACE6F05CE42E5FE5 /* Pods-BeetleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeetleQuiz.debug.xcconfig"; path = "Target Support Files/Pods-BeetleQuiz/Pods-BeetleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,19 +62,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E6ADCFE29ED5A9E00339134 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				3E6ADCFF29ED5A9E00339134 /* correct.png */,
-				3E6ADD0029ED5A9E00339134 /* incorrect.png */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
 		3E8CF4C729F942480066A4C5 /* launchImage */ = {
 			isa = PBXGroup;
 			children = (
 				3E8CF4C829F942480066A4C5 /* launchImageView.png */,
+				3ECF0E4D2A3B1D7A003B3561 /* Untitled.png */,
 			);
 			path = launchImage;
 			sourceTree = "<group>";
@@ -110,11 +104,20 @@
 				3E6ADCF029E41A4900339134 /* ZokusolectionViewController.swift */,
 				3E918C9F29DD821C0067765F /* Assets.xcassets */,
 				3E918CA129DD821C0067765F /* LaunchScreen.storyboard */,
-				3E6ADCFE29ED5A9E00339134 /* image */,
 				3E918CA429DD821C0067765F /* Info.plist */,
+				3ECF0E482A3B1D5F003B3561 /* image 16.43.21 */,
 				3E8CF4C729F942480066A4C5 /* launchImage */,
 			);
 			path = BeetleQuiz;
+			sourceTree = "<group>";
+		};
+		3ECF0E482A3B1D5F003B3561 /* image 16.43.21 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF0E492A3B1D5F003B3561 /* correct.png */,
+				3ECF0E4A2A3B1D5F003B3561 /* incorrect.png */,
+			);
+			path = "image 16.43.21";
 			sourceTree = "<group>";
 		};
 		81C7D408ECDB039F05314A4B /* Frameworks */ = {
@@ -194,14 +197,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E6ADD0129ED5A9E00339134 /* correct.png in Resources */,
-				3E6ADD0229ED5A9E00339134 /* incorrect.png in Resources */,
+				3ECF0E4B2A3B1D5F003B3561 /* correct.png in Resources */,
 				3E918CA329DD821C0067765F /* LaunchScreen.storyboard in Resources */,
 				3E6ADCFB29E6C26800339134 /* quiz1.csv in Resources */,
 				3E8CF4CB29FD00200066A4C5 /* quiz2.csv in Resources */,
 				3E918CA029DD821C0067765F /* Assets.xcassets in Resources */,
 				3E8CF4CD29FD00410066A4C5 /* quiz3.csv in Resources */,
 				3E918C9E29DD821B0067765F /* Main.storyboard in Resources */,
+				3ECF0E4C2A3B1D5F003B3561 /* incorrect.png in Resources */,
+				3ECF0E4E2A3B1D7A003B3561 /* Untitled.png in Resources */,
 				3E8CF4C929F942480066A4C5 /* launchImageView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
