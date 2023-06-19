@@ -25,7 +25,7 @@ class ScoreViewController: UIViewController {
     }
     
     @IBAction func toTopButtonAction(_ sender: Any) {
-        self.presentingViewController?.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
+        self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
     }
     
     @IBAction func shareButtonAction(_ sender: Any) {
